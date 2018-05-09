@@ -3,9 +3,11 @@ const isEven = (number)=>{
 }
 
 const printTable = (number) =>{
+  var res ;
   for(var i = 1; i <= 10; i++){
-          return number * i;
+          res = number * i;
        } 
+       return res;
 }
 
 const square = (number) =>{
