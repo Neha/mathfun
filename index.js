@@ -4,7 +4,7 @@ const isEven = (number)=>{
 
 const printTable = (number) =>{
   for(var i = 0; i <= 10; i++){
-          return this.number * i ;
+          return number * i;
        } 
 }
 
