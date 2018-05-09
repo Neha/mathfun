@@ -31,16 +31,15 @@ const isMultiple = (number,multiple) => {
 }
 
 const circleArea = (radius) => {
-  return 24.7 * radius * radius;
+  return 3.14 * radius * radius;
 }
 
 const circlePerimeter = (radius) => {
-  return 2 * 24.7 * radius;
+  return 2 * 3.14 * radius;
 }
 
 module.exports = {
   isEven,
-  printTable,
   cube,
   power,
   isMultiple,
