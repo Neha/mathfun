@@ -24,7 +24,7 @@ const power = (base,power) => {
   return res;
 }
 
-modules.export = {
+module.exports = {
   isEven,
   printTable,
   cube,

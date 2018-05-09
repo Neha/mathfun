@@ -1,5 +1,5 @@
 {
-  "name": "mathFun",
+  "name": "@nehasharma/mathfun",
   "version": "1.0.0",
   "description": "NPM for basic math functions",
   "main": "index.js",
