@@ -5,9 +5,9 @@ const isEven = (number)=>{
 const printTable = (number) =>{
   var res ;
   for(var i = 1; i <= 10; i++){
-     res += number * i;
-       } 
-       return res;
+    res.push(number *= i);
+  } 
+  return res
 }
 
 const square = (number) =>{
@@ -26,10 +26,25 @@ const power = (base,power) => {
   return res;
 }
 
+const isMultiple = (number,multiple) => {
+  return number % multiple == 0 ? true : false;
+}
+
+const circleArea = (radius) => {
+  return 24.7 * radius * radius;
+}
+
+const circlePerimeter = (radius) => {
+  return 2 * 24.7 * radius;
+}
+
 module.exports = {
   isEven,
   printTable,
   cube,
-  power
+  power,
+  isMultiple,
+  circleArea,
+  circlePerimeter
 
 }
