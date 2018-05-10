@@ -2,12 +2,12 @@ const isEven = (number)=>{
   return number % 2 == 0 ? true : false;
 }
 
-const printTable = (number) =>{
-  var res ;
-  for(var i = 1; i <= 10; i++){
-    res.push(number *= i);
+const printTable = (number, to = 10) =>{
+  var res  = [];
+  for(var i = 1; i <= to; i++){
+    res.push(number * i);
   } 
-  return res
+  return res;
 }
 
 const square = (number) =>{
@@ -31,11 +31,27 @@ const isMultiple = (number,multiple) => {
 }
 
 const circleArea = (radius) => {
-  return 3.14 * radius * radius;
+  return Math.pi * radius * radius;
 }
 
 const circlePerimeter = (radius) => {
-  return 2 * 3.14 * radius;
+   return 2 * Math.pi * radius;
+}
+
+const RecPerimeter = (length, breadth) => {
+  return 2 * (length + breadth);
+}
+
+const RecArea = (length, breadth) => {
+  return length * breadth;
+}
+
+const squareArea = (side) => {
+  return side * side;
+}
+
+const squarePerimeter = (side) => {
+  return 4 * side;
 }
 
 module.exports = {
@@ -44,6 +60,11 @@ module.exports = {
   power,
   isMultiple,
   circleArea,
-  circlePerimeter
+  circlePerimeter,
+  squarePerimeter,
+  squareArea,
+  RecArea,
+  RecPerimeter,
+  printTable
 
 }
