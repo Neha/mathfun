@@ -31,11 +31,11 @@ const isMultiple = (number,multiple) => {
 }
 
 const circleArea = (radius) => {
-  return Math.pi * radius * radius;
+  return Math.PI * radius * radius;
 }
 
 const circlePerimeter = (radius) => {
-   return 2 * Math.pi * radius;
+   return 2 * Math.PI * radius ;
 }
 
 const RecPerimeter = (length, breadth) => {
