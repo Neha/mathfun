@@ -2,6 +2,8 @@ const isEven = (number)=>{
   return number % 2 == 0 ? true : false;
 }
 
+
+
 const printTable = (number, to = 10) =>{
   var res  = [];
   for(var i = 1; i <= to; i++){
