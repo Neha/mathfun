@@ -2,14 +2,19 @@ const isEven = (number)=>{
   return number % 2 == 0 ? true : false;
 }
 
-
-
 const printTable = (number, to = 10) =>{
   var res  = [];
   for(var i = 1; i <= to; i++){
     res.push(number * i);
   } 
   return res;
+}
+
+const reverseNumber = (number) =>{
+  return number.toString()
+               .split(' ')
+               .reverse()
+               .join(' ');
 }
 
 const square = (number) =>{
@@ -58,8 +63,11 @@ const squarePerimeter = (side) => {
 
 module.exports = {
   isEven,
-  cube,
+  printTable,
   power,
+  reverseNumber,
+  cube,
+  square,
   isMultiple,
   circleArea,
   circlePerimeter,
