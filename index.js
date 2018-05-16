@@ -12,9 +12,9 @@ const printTable = (number, to = 10) =>{
 
 const reverseNumber = (number) =>{
   var num =  number.toString()
-               .split(' ')
+               .split('')
                .reverse()
-               .join(' ');
+               .join('');
    return num;
 }
 

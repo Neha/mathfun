@@ -1,6 +1,6 @@
 {
   "name": "@nehasharma/mathfun",
-  "version": "2.7.0",
+  "version": "2.8.0",
   "description": "NPM for basic math functions",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,13 @@
     "math", 
     "math calculations",
     "javascript math npm",
-    "calculate the geometery shapes formulas"
+    "calculate the geometery shapes formulas",
+    "square of number",
+    "cube of number",
+    "reverse of number",
+    "square perimeter",
+    "rectangle perimeter",
+   "rectangle area"
   ],
   "author": "Neha Sharma [neha@jslovers.com]",
   "license": "ISC"
