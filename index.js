@@ -11,10 +11,11 @@ const printTable = (number, to = 10) =>{
 }
 
 const reverseNumber = (number) =>{
-  return number.toString()
+  var num =  number.toString()
                .split(' ')
                .reverse()
                .join(' ');
+   return num;
 }
 
 const square = (number) =>{

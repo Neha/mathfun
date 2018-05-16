@@ -78,6 +78,12 @@ It will return the perimeter of the square based on the provided parameter.
 
 Expect 1 parameter only.
 
+- reverseNumber 
+
+It will return the reverse of the input parameter.
+
+Expect 1 parameter only.
+
 
 # How to use?
 Step 1 : npm install @nehasharma/mathfun
