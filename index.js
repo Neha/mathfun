@@ -63,7 +63,7 @@ const squarePerimeter = (side) => {
 }
 
 const quadEqnRoot = (a, b, c) => {
-  var discrminant = (b**2) - (4*a*c);
+  var discrminant = Math.pow(b, 2) - (4*a*c);
   if(discrminant< 0) {
     return false;
   }
@@ -73,6 +73,11 @@ const quadEqnRoot = (a, b, c) => {
     return [root1, root2];
   }
 }
+
+const sphereVolume = (radius) => {
+  return ((4/3) * Math.PI * Math.pow(radius, 3));
+}
+
 
 module.exports = {
   isEven,
