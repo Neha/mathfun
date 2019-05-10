@@ -78,6 +78,15 @@ const sphereVolume = (radius) => {
   return ((4/3) * Math.PI * Math.pow(radius, 3));
 }
 
+const cylinderVolume = (radius, height) => {
+  if(height > 0) {
+    var root1 = (-b + Math.sqrt(discrminant)) / (2 * a);
+    return cylinderVolume;
+  }
+  else{
+    return false;
+  }
+}
 
 module.exports = {
   isEven,
@@ -95,6 +104,7 @@ module.exports = {
   RecPerimeter,
   quadEqnRoot,
   sphereVolume,
+  cylinderVolume,
   printTable
 
 }
