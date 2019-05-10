@@ -64,7 +64,7 @@ const squarePerimeter = (side) => {
 
 const quadEqnRoot = (a, b, c) => {
   var discrminant = Math.pow(b, 2) - (4*a*c);
-  if(discrminant< 0) {
+  if(discrminant < 0) {
     return false;
   }
   else{
@@ -88,6 +88,12 @@ const cylinderVolume = (radius, height) => {
   }
 }
 
+const cubeVolume = (side) => {
+  return Math.pow(side, 3);
+}
+
+
+
 module.exports = {
   isEven,
   printTable,
@@ -105,6 +111,7 @@ module.exports = {
   quadEqnRoot,
   sphereVolume,
   cylinderVolume,
+  cubeVolume,
   printTable
 
 }
