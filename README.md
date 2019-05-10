@@ -108,6 +108,12 @@ It will return the volume of a cube given the side parameter.
 
 Expect 1 parameter only.
 
+- cuboidVolume
+
+It will return the volume of a cuboid given the length, breadth and height parameters.
+
+Expect 3 parameter only.
+
 
 # How to use?
 Step 1 : npm install @nehasharma/mathfun

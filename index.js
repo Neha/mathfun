@@ -92,6 +92,10 @@ const cubeVolume = (side) => {
   return Math.pow(side, 3);
 }
 
+const cuboidVolume = (length, breadth, height) => {
+  return length * breadth * height;
+}
+
 
 
 module.exports = {
@@ -112,6 +116,7 @@ module.exports = {
   sphereVolume,
   cylinderVolume,
   cubeVolume,
+  cuboidVolume,
   printTable
 
 }
