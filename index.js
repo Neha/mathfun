@@ -62,6 +62,15 @@ const squarePerimeter = (side) => {
   return 4 * side;
 }
 
+const quadEqnRoot = (a, b, c) => {
+  if((b**2 - 4*a*c)< 0) {
+    return false;
+  }
+  else{
+    return true;
+  }
+}
+
 module.exports = {
   isEven,
   printTable,
@@ -76,6 +85,7 @@ module.exports = {
   squareArea,
   RecArea,
   RecPerimeter,
+  quadEqnRoot,
   printTable
 
 }
