@@ -94,6 +94,7 @@ module.exports = {
   RecArea,
   RecPerimeter,
   quadEqnRoot,
+  sphereVolume,
   printTable
 
 }
