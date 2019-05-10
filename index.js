@@ -63,11 +63,14 @@ const squarePerimeter = (side) => {
 }
 
 const quadEqnRoot = (a, b, c) => {
-  if((b**2 - 4*a*c)< 0) {
+  var discrminant = (b**2) - (4*a*c);
+  if(discrminant< 0) {
     return false;
   }
   else{
-    return true;
+    var root1 = (-b + Math.sqrt(discrminant)) / (2 * a);
+    var root2 = (-b - Math.sqrt(discrminant)) / (2 * a);
+    return [root1, root2];
   }
 }
 
