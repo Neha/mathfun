@@ -85,19 +85,27 @@ It will return the reverse of the input parameter.
 Expect 1 parameter only.
 
 - quadEqnRoot
+
 It will return two roots of a given quadratice equation.
+
 Expect 2 parameters only.
 
 - spehereVolume
+
 It will return the volume of a sphere given the radius parameter.
+
 Expect 1 parameter only.
 
 - cylinderVolume
+
 It will return the volume of a cylinder given the radius and height parameters.
+
 Expect 2 parameters only.
 
 - cubeVolume
+
 It will return the volume of a cube given the side parameter.
+
 Expect 1 parameter only.
 
 
