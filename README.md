@@ -90,7 +90,7 @@ It will return two roots of a given quadratice equation.
 
 Expect 2 parameters only.
 
-- spehereVolume
+- sphereVolume
 
 It will return the volume of a sphere given the radius parameter.
 
