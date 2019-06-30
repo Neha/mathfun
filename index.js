@@ -62,6 +62,42 @@ const squarePerimeter = (side) => {
   return 4 * side;
 }
 
+const quadEqnRoot = (a, b, c) => {
+  var discrminant = Math.pow(b, 2) - (4*a*c);
+  if(discrminant < 0) {
+    return false;
+  }
+  else{
+    var root1 = (-b + Math.sqrt(discrminant)) / (2 * a);
+    var root2 = (-b - Math.sqrt(discrminant)) / (2 * a);
+    return [root1, root2];
+  }
+}
+
+const sphereVolume = (radius) => {
+  return ((4/3) * Math.PI * Math.pow(radius, 3));
+}
+
+const cylinderVolume = (radius, height) => {
+  if(height > 0) {
+    var root1 = (-b + Math.sqrt(discrminant)) / (2 * a);
+    return cylinderVolume;
+  }
+  else{
+    return false;
+  }
+}
+
+const cubeVolume = (side) => {
+  return Math.pow(side, 3);
+}
+
+const cuboidVolume = (length, breadth, height) => {
+  return length * breadth * height;
+}
+
+
+
 module.exports = {
   isEven,
   printTable,
@@ -76,6 +112,11 @@ module.exports = {
   squareArea,
   RecArea,
   RecPerimeter,
+  quadEqnRoot,
+  sphereVolume,
+  cylinderVolume,
+  cubeVolume,
+  cuboidVolume,
   printTable
 
 }

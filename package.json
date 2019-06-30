@@ -16,7 +16,12 @@
     "reverse of number",
     "square perimeter",
     "rectangle perimeter",
-   "rectangle area"
+   "rectangle area",
+   "roots of a quadratic equation",
+   "volume of a sphere",
+   "volume of a cylinder",
+   "volume of a cube",
+   "volume of a cuboid"
   ],
   "author": "Neha Sharma [neha@jslovers.com]",
   "license": "ISC"
